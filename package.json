@@ -1,0 +1,20 @@
+{
+  "name": "polymarket-agent-radar-api",
+  "version": "1.0.0",
+  "description": "Polymarket Intelligence Engine REST API — Smart Money, Alpha Signals, Bot Detection, Bond Scanner",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.75.0",
+    "@supabase/supabase-js": "^2.54.0",
+    "@vercel/node": "^5.6.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vercel": "^41.0.0"
+  }
+}
