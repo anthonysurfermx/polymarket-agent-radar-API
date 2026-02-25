@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Matrix rain characters (background decoration) -->
+  <g opacity="0.06" fill="#f59e0b" font-family="'Courier New', monospace" font-size="13">
+    <text x="20" y="25">_2223o2_o&lt;:,^,... ´,,;) &lt;&gt;):;:;,~,,: -~¦»{*[i&gt;¦lrcoItj7</text>
+    <text x="30" y="50">_2o33300_o,;:,... ´,o,,—¦¦¦¦ji¬»(*(/ ¦^-ªA</text>
+    <text x="15" y="75">_o2o3___~~³_... &lt;&gt;»);::,.... ;);3;;:&gt;»,... ~~,~_~³_-³</text>
+    <text x="40" y="100">-~_~~_,,ⁿ3_... &gt;,,;... &gt;,,</text>
+    <text x="25" y="930">´:ª(7†¬³,`</text>
+    <text x="20" y="955">^&lt;^/77x¬,,~.</text>
+    <text x="15" y="980">·,&lt;,,¬*i¦&lt;[/j~&lt;',...... ... ...´j&lt;x/</text>
+    <text x="20" y="1005">·...,&gt;-ª¡(z=jc¤tj&lt;x/¦——^^^,,³',,`^^^</text>
+    <text x="10" y="1030">-'¬/{z7=1c∫zCn@3n‰¤ìlì i?{·j,,~</text>
+    <text x="800" y="25">...;_2o2_&lt;:~</text>
+    <text x="820" y="50">~,,.,&gt;_o333333320,</text>
+    <text x="850" y="75">&lt;o2o</text>
+    <text x="780" y="930">0£w0</text>
+    <text x="800" y="955">*/¬¬</text>
+    <text x="820" y="980">;¦~</text>
+    <text x="750" y="1005">,,ⁿ3</text>
+    <text x="900" y="100">¬/{z</text>
+    <text x="880" y="125">Vw5y</text>
+    <text x="860" y="150">†½s</text>
+  </g>
+
+  <!-- Terminal window -->
+  <rect x="80" y="120" width="920" height="780" rx="12" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="80" y="120" width="920" height="40" rx="12" fill="#222"/>
+  <rect x="80" y="148" width="920" height="12" fill="#222"/>
+  <!-- Traffic lights -->
+  <circle cx="110" cy="140" r="7" fill="#ff5f57"/>
+  <circle cx="134" cy="140" r="7" fill="#febc2e"/>
+  <circle cx="158" cy="140" r="7" fill="#28c840"/>
+  <!-- Title bar text -->
+  <text x="540" y="145" fill="#666" font-family="'SF Mono', 'Courier New', monospace" font-size="13" text-anchor="middle">polymarket-agent-radar-API — v1.0.0</text>
+
+  <!-- Command line -->
+  <text x="110" y="195" fill="#666" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#28c840">❯</tspan>
+    <tspan fill="#999"> curl -H "Authorization: Bearer bw_live_***"</tspan>
+  </text>
+  <text x="130" y="215" fill="#666" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#999">https://polymarket-agent-radar-api.vercel.app/api/v1/health</tspan>
+  </text>
+
+  <!-- Big ASCII title -->
+  <g font-family="'SF Mono', 'Courier New', monospace" fill="#f59e0b" filter="url(#softglow)">
+    <text x="110" y="275" font-size="52" font-weight="900" letter-spacing="8">AGENT</text>
+    <text x="110" y="335" font-size="52" font-weight="900" letter-spacing="8">RADAR</text>
+  </g>
+
+  <!-- API badge -->
+  <rect x="110" y="355" width="55" height="24" rx="4" fill="#f59e0b" opacity="0.15"/>
+  <text x="137" y="372" fill="#f59e0b" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">API</text>
+
+  <rect x="175" y="355" width="35" height="24" rx="4" fill="#f59e0b" opacity="0.15"/>
+  <text x="192" y="372" fill="#f59e0b" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">v1</text>
+
+  <rect x="220" y="355" width="90" height="24" rx="4" fill="#836EF9" opacity="0.15"/>
+  <text x="265" y="372" fill="#836EF9" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">REST API</text>
+
+  <!-- Source line -->
+  <text x="110" y="415" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#666">◇</tspan>
+    <tspan fill="#888"> Source: </tspan>
+    <tspan fill="#60a5fa">github.com/anthonysurfermx/polymarket-agent-radar-API</tspan>
+  </text>
+
+  <!-- Status line -->
+  <text x="110" y="445" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#666">◇</tspan>
+    <tspan fill="#888"> Status: </tspan>
+    <tspan fill="#28c840">● LIVE</tspan>
+    <tspan fill="#666"> on Vercel Edge</tspan>
+  </text>
+
+  <!-- Endpoints count -->
+  <text x="110" y="475" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#666">◇</tspan>
+    <tspan fill="#888"> Found </tspan>
+    <tspan fill="#fff" font-weight="700">13 endpoints</tspan>
+  </text>
+
+  <!-- Endpoints list -->
+  <text x="110" y="515" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#60a5fa">◆</tspan>
+    <tspan fill="#ccc" font-weight="700"> Intelligence endpoints</tspan>
+    <tspan fill="#666"> (auth required)</tspan>
+  </text>
+
+  <!-- Endpoint items -->
+  <g font-family="'SF Mono', 'Courier New', monospace" font-size="13.5">
+    <text x="130" y="545">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/smart-money</tspan>
+      <tspan fill="#f59e0b" font-size="11"> HEAVY</tspan>
+    </text>
+    <text x="130" y="570">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/smart-money/alpha</tspan>
+    </text>
+    <text x="130" y="595">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/smart-money/convergence</tspan>
+    </text>
+    <text x="130" y="620">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/wallet/:address</tspan>
+      <tspan fill="#666" font-size="11"> (bot detection + strategy)</tspan>
+    </text>
+    <text x="130" y="645">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/market/:slug</tspan>
+    </text>
+    <text x="130" y="670">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/trader/:address/reliability</tspan>
+    </text>
+    <text x="130" y="695">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#28c840" font-weight="700"> GET </tspan>
+      <tspan fill="#aaa">/bonds</tspan>
+      <tspan fill="#666" font-size="11"> /orderbook /open-interest</tspan>
+    </text>
+    <text x="130" y="720">
+      <tspan fill="#444">□</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> POST</tspan>
+      <tspan fill="#aaa"> /explain</tspan>
+      <tspan fill="#836EF9" font-size="11"> SSE streaming</tspan>
+    </text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="110" y1="745" x2="970" y2="745" stroke="#333" stroke-width="1"/>
+
+  <!-- Intelligence features row -->
+  <g font-family="'SF Mono', 'Courier New', monospace" font-size="12">
+    <!-- Bot Detection -->
+    <text x="130" y="775">
+      <tspan fill="#f59e0b">●</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> 7-Signal Bot Detection</tspan>
+    </text>
+    <text x="150" y="795" fill="#666">5 archetypes · 4 classifications</text>
+
+    <!-- Smart Money -->
+    <text x="460" y="775">
+      <tspan fill="#28c840">●</tspan>
+      <tspan fill="#28c840" font-weight="700"> Smart Money Tracker</tspan>
+    </text>
+    <text x="480" y="795" fill="#666">50 whales · convergence scores</text>
+
+    <!-- AI Scores -->
+    <text x="760" y="775">
+      <tspan fill="#836EF9">●</tspan>
+      <tspan fill="#836EF9" font-weight="700"> AI Alpha Signals</tspan>
+    </text>
+    <text x="780" y="795" fill="#666">5 types · confidence ranked</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="110" y1="820" x2="970" y2="820" stroke="#333" stroke-width="1"/>
+
+  <!-- Attribution -->
+  <g font-family="'SF Mono', 'Courier New', monospace">
+    <text x="110" y="855" font-size="15">
+      <tspan fill="#666">Powered by</tspan>
+      <tspan fill="#836EF9" font-weight="700"> DeFi Mexico</tspan>
+      <tspan fill="#333"> │ </tspan>
+      <tspan fill="#f59e0b">Polymarket Agent Radar API v1</tspan>
+    </text>
+    <text x="110" y="880" font-size="12">
+      <tspan fill="#444">Enterprise: 10,000 req/day · Pro: 1,000 · Free: 50</tspan>
+    </text>
+  </g>
+</svg>
