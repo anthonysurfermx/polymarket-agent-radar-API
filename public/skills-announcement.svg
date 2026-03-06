@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Matrix rain characters (background decoration) -->
+  <g opacity="0.06" fill="#f59e0b" font-family="'Courier New', monospace" font-size="13">
+    <text x="20" y="25">smart-money wallet-scanner market-analyzer bond-scanner find-opportunities</text>
+    <text x="30" y="50">bot-detection vpin kelly-criterion alpha-signals convergence-score</text>
+    <text x="15" y="75">npx skills add anthonysurfermx/polymarket-agent-radar-API --all</text>
+    <text x="40" y="100">claude-code cursor windsurf copilot skill.md mcp-server</text>
+    <text x="25" y="930">whale-signals edge-tracker portfolio-insights sniper market-maker</text>
+    <text x="20" y="955">polymarket gamma-api clob-api data-api vercel-edge supabase</text>
+    <text x="15" y="980">consensus underwater-accumulation whale-convergence high-conviction</text>
+    <text x="20" y="1005">0xABC...DEF botScore:87 classification:BOT strategy:SNIPER</text>
+    <text x="10" y="1030">smart-money alpha bonds orderbook open-interest reliability explain</text>
+    <text x="800" y="25">...skill.md</text>
+    <text x="820" y="50">~bot:87</text>
+    <text x="850" y="75">alpha</text>
+    <text x="780" y="930">whale</text>
+    <text x="800" y="955">edge</text>
+    <text x="820" y="980">vpin</text>
+    <text x="750" y="1005">kelly</text>
+    <text x="900" y="100">bonds</text>
+    <text x="880" y="125">snipe</text>
+    <text x="860" y="150">0x...</text>
+  </g>
+
+  <!-- Terminal window -->
+  <rect x="80" y="120" width="920" height="780" rx="12" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="80" y="120" width="920" height="40" rx="12" fill="#222"/>
+  <rect x="80" y="148" width="920" height="12" fill="#222"/>
+  <!-- Traffic lights -->
+  <circle cx="110" cy="140" r="7" fill="#ff5f57"/>
+  <circle cx="134" cy="140" r="7" fill="#febc2e"/>
+  <circle cx="158" cy="140" r="7" fill="#28c840"/>
+  <!-- Title bar text -->
+  <text x="540" y="145" fill="#666" font-family="'SF Mono', 'Courier New', monospace" font-size="13" text-anchor="middle">polymarket-agent-radar-API &#x2014; skills v1.0</text>
+
+  <!-- Command line -->
+  <text x="110" y="195" fill="#666" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#28c840">&#x276F;</tspan>
+    <tspan fill="#999"> npx skills add anthonysurfermx/polymarket-agent-radar-API --all</tspan>
+  </text>
+  <text x="130" y="215" fill="#666" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#28c840">&#x2714;</tspan>
+    <tspan fill="#999"> Installed 5 skills to .claude/skills/</tspan>
+  </text>
+
+  <!-- Big title -->
+  <g font-family="'SF Mono', 'Courier New', monospace" fill="#f59e0b" filter="url(#softglow)">
+    <text x="110" y="280" font-size="40" font-weight="900" letter-spacing="4">SKILLS</text>
+  </g>
+  <g font-family="'SF Mono', 'Courier New', monospace" fill="#fff" filter="url(#softglow)">
+    <text x="110" y="330" font-size="34" font-weight="900" letter-spacing="3">POLYMARKET</text>
+  </g>
+  <g font-family="'SF Mono', 'Courier New', monospace" fill="#836EF9" filter="url(#softglow)">
+    <text x="110" y="375" font-size="34" font-weight="900" letter-spacing="3">AGENT RADAR</text>
+  </g>
+
+  <!-- Badges -->
+  <rect x="110" y="400" width="55" height="24" rx="4" fill="#f59e0b" opacity="0.15"/>
+  <text x="137" y="417" fill="#f59e0b" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">API</text>
+
+  <rect x="175" y="400" width="35" height="24" rx="4" fill="#f59e0b" opacity="0.15"/>
+  <text x="192" y="417" fill="#f59e0b" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">v1</text>
+
+  <rect x="220" y="400" width="80" height="24" rx="4" fill="#28c840" opacity="0.15"/>
+  <text x="260" y="417" fill="#28c840" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">5 SKILLS</text>
+
+  <rect x="310" y="400" width="110" height="24" rx="4" fill="#836EF9" opacity="0.15"/>
+  <text x="365" y="417" fill="#836EF9" font-family="'SF Mono', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">13 ENDPOINTS</text>
+
+  <!-- Source -->
+  <text x="110" y="455" font-family="'SF Mono', 'Courier New', monospace" font-size="13">
+    <tspan fill="#666">&#x2502;</tspan>
+    <tspan fill="#60a5fa"> github.com/anthonysurfermx/polymarket-agent-radar-API</tspan>
+  </text>
+
+  <!-- Separator -->
+  <line x1="110" y1="475" x2="970" y2="475" stroke="#333" stroke-width="1"/>
+
+  <!-- Skills list -->
+  <text x="110" y="505" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#60a5fa">&#x25B6;</tspan>
+    <tspan fill="#ccc" font-weight="700"> Available Skills</tspan>
+    <tspan fill="#666"> (install with npx skills add)</tspan>
+  </text>
+
+  <g font-family="'SF Mono', 'Courier New', monospace" font-size="13.5">
+    <text x="130" y="540">
+      <tspan fill="#28c840">&#x25CF;</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> smart-money</tspan>
+    </text>
+    <text x="160" y="560" fill="#666" font-size="12">Top 50 whales &#x00B7; consensus &#x00B7; alpha signals &#x00B7; convergence</text>
+
+    <text x="130" y="590">
+      <tspan fill="#28c840">&#x25CF;</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> wallet-scanner</tspan>
+    </text>
+    <text x="160" y="610" fill="#666" font-size="12">7-signal bot detection &#x00B7; 5 strategy archetypes &#x00B7; reliability</text>
+
+    <text x="130" y="640">
+      <tspan fill="#28c840">&#x25CF;</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> market-analyzer</tspan>
+    </text>
+    <text x="160" y="660" fill="#666" font-size="12">Holder scan &#x00B7; bot rate &#x00B7; order book &#x00B7; open interest</text>
+
+    <text x="130" y="690">
+      <tspan fill="#28c840">&#x25CF;</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> bond-scanner</tspan>
+    </text>
+    <text x="160" y="710" fill="#666" font-size="12">Near-certain yield &#x00B7; APY calculation &#x00B7; liquidity check</text>
+
+    <text x="130" y="740">
+      <tspan fill="#28c840">&#x25CF;</tspan>
+      <tspan fill="#f59e0b" font-weight="700"> find-opportunities</tspan>
+    </text>
+    <text x="160" y="760" fill="#666" font-size="12">Combined intelligence &#x00B7; ranked recommendations &#x00B7; Kelly sizing</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="110" y1="785" x2="970" y2="785" stroke="#333" stroke-width="1"/>
+
+  <!-- Compatible agents -->
+  <text x="110" y="815" font-family="'SF Mono', 'Courier New', monospace" font-size="14">
+    <tspan fill="#60a5fa">&#x25B6;</tspan>
+    <tspan fill="#ccc" font-weight="700"> Works with</tspan>
+  </text>
+
+  <g font-family="'SF Mono', 'Courier New', monospace" font-size="12">
+    <rect x="110" y="830" width="110" height="22" rx="4" fill="#836EF9" opacity="0.15"/>
+    <text x="165" y="845" fill="#836EF9" font-weight="700" text-anchor="middle">Claude Code</text>
+
+    <rect x="230" y="830" width="75" height="22" rx="4" fill="#28c840" opacity="0.15"/>
+    <text x="267" y="845" fill="#28c840" font-weight="700" text-anchor="middle">Cursor</text>
+
+    <rect x="315" y="830" width="90" height="22" rx="4" fill="#60a5fa" opacity="0.15"/>
+    <text x="360" y="845" fill="#60a5fa" font-weight="700" text-anchor="middle">Windsurf</text>
+
+    <rect x="415" y="830" width="80" height="22" rx="4" fill="#f59e0b" opacity="0.15"/>
+    <text x="455" y="845" fill="#f59e0b" font-weight="700" text-anchor="middle">Copilot</text>
+
+    <rect x="505" y="830" width="65" height="22" rx="4" fill="#ff6b6b" opacity="0.15"/>
+    <text x="537" y="845" fill="#ff6b6b" font-weight="700" text-anchor="middle">Kiro</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="110" y1="865" x2="970" y2="865" stroke="#333" stroke-width="1"/>
+
+  <!-- Attribution -->
+  <g font-family="'SF Mono', 'Courier New', monospace">
+    <text x="110" y="895" font-size="15">
+      <tspan fill="#836EF9" font-weight="700">DeFi Mexico</tspan>
+      <tspan fill="#333"> &#x2502; </tspan>
+      <tspan fill="#f59e0b" font-weight="700">Polymarket Agent Radar</tspan>
+      <tspan fill="#333"> &#x2502; </tspan>
+      <tspan fill="#28c840">Skills v1</tspan>
+    </text>
+    <text x="110" y="918" font-size="12">
+      <tspan fill="#444">defimexico.org &#x00B7; Free: 50 req/day &#x00B7; Pro: 1,000 &#x00B7; Enterprise: 10,000</tspan>
+    </text>
+  </g>
+</svg>
