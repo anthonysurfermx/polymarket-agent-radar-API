@@ -11,6 +11,7 @@
   <br /><br />
   <a href="https://polymarket-agent-radar-api.vercel.app/api/v1/health"><img src="https://img.shields.io/badge/status-live-brightgreen" alt="Status: Live" /></a>
   <a href="#endpoints"><img src="https://img.shields.io/badge/endpoints-13-blue" alt="13 Endpoints" /></a>
+  <a href="#ai-agent-skills"><img src="https://img.shields.io/badge/skills-5-purple" alt="5 Skills" /></a>
   <a href="#authentication"><img src="https://img.shields.io/badge/auth-API%20key-orange" alt="Auth: API Key" /></a>
 </p>
 
@@ -87,6 +88,44 @@ Scans up to 50 top PnL traders from the Polymarket leaderboard. Tracks positions
 
 ### AI Explain (SSE)
 Stream AI-powered analysis for 10 different contexts: wallet, market, exchange-metrics, smart money signals, edge, portfolios, bonds, and alpha.
+
+## AI Agent Skills
+
+Install Polymarket intelligence directly into your AI coding agent. Works with Claude Code, Cursor, Windsurf, Copilot, and any agent that supports the skills standard.
+
+```bash
+# Install all skills
+npx skills add anthonysurfermx/polymarket-agent-radar-API --all
+
+# Or install individually
+npx skills add anthonysurfermx/polymarket-agent-radar-API --skill smart-money
+npx skills add anthonysurfermx/polymarket-agent-radar-API --skill wallet-scanner
+npx skills add anthonysurfermx/polymarket-agent-radar-API --skill market-analyzer
+npx skills add anthonysurfermx/polymarket-agent-radar-API --skill bond-scanner
+npx skills add anthonysurfermx/polymarket-agent-radar-API --skill find-opportunities
+```
+
+### Available Skills
+
+| Skill | Description |
+|-------|-------------|
+| `smart-money` | Track top 50 PnL traders — consensus, alpha signals, whale convergence |
+| `wallet-scanner` | 7-signal bot detection + strategy classification on any wallet |
+| `market-analyzer` | Deep market analysis — holders, bot rate, order book, open interest |
+| `bond-scanner` | Find near-certain positions with APY calculation |
+| `find-opportunities` | Combined workflow — chains all endpoints into ranked trade recommendations |
+
+### Usage Example
+
+After installing, just ask your AI agent naturally:
+
+- *"What are the whales buying on Polymarket?"*
+- *"Is wallet 0xABC a bot?"*
+- *"Find me low-risk bond opportunities"*
+- *"I have $1,000 and medium risk tolerance — what should I bet on?"*
+- *"Analyze the Bitcoin 100k market on Polymarket"*
+
+The agent will call the API endpoints automatically and present the intelligence.
 
 ## Tech Stack
 
